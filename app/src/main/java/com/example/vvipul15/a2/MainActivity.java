@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity
                         break;
                     case 2:
                         //start activity on selection of any item you want, here I am assuming first item.
-                        Intent intent1 = new Intent(MainActivity.this, register.class);
+                        Intent intent1 = new Intent(MainActivity.this, ret_register.class);
                         startActivity(intent1);
                         break;
 
